@@ -1,0 +1,27 @@
+/*Select dupa Tag-uri */
+body{
+    background-color: rgba(84, 87, 84, 0.377);
+}
+h2 {
+    color: green;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    color: rgb(69, 150, 150);
+    text-align: center;
+}
+
+/* Select dupa clasa */
+.subtitlu{
+    color: blueviolet;
+}
+/* Selectare dupa ID */
+#titlu_articol{
+    color: green;
+}
+/* 
+Ierarhia selectorilor:
+    1.ID
+    2.Clasa
+    3.Tag 
+*/

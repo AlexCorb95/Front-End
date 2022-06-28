@@ -2,6 +2,12 @@
 <html>
   <head>
     <title>News</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+      h2 {
+        color: blue;
+      }
+    </style>
    </head>
    <body>
     <header>
@@ -13,11 +19,13 @@
         <a href="news.html">Noutati</a>
         <a href="videos.html">Video</a>
         <a href="lista.html">Liste</a>
+        <a href="tabele.html">Tabele</a>
+        <a href="formular.html">Formular</a>
       </nav>
     </header>
     <article>
-      <h2>TIFF continuă luni la Florești!</h2>
-      <h3> Primarul Pivariu: „Da, ați citit corect” / Tudor Giurgiu va fi prezent</h3>
+      <h2 style="color: red;">TIFF continuă luni la Florești!</h2>
+      <h3 class="subtitlu"> Primarul Pivariu: „Da, ați citit corect” / Tudor Giurgiu va fi prezent</h3>
       <img src="imagini/tiff.jpg" alt="TIFF" width="500">
       <p>Chiar dacă ediția din acest an a Festivalului Internațional de Film Transilvania (TIFF) s-a încheiat duminică, în această seară, în comuna Florești va rula un film reprogramat din cauza vântului de săptămâna trecută.
 
@@ -36,8 +44,9 @@
       <a href="https://zcj.ro/cultura/tiff-continua-luni-la-floresti-primarul-pivariu-da-ati-citit-corect-tudor-giurgiu-va-fi-si-el-prezent--234443.html">FULL NEWS</a>
     </article>
     <article>
-      <h2>Un nou parc fotovoltaic la Cluj!</h1>
-      <h3>A primit VERDE de la urbaniștii județului</h3>
+      <!-- CSS: La h2 se face modificare in css dupa ID="titlu_articol" iar la h3 dupa o class="subtitlu" -->
+      <h2 id="titlu_articol">Un nou parc fotovoltaic la Cluj!</h1>
+      <h3 class="subtitlu">A primit VERDE de la urbaniștii județului</h3>
       <img src="imagini/solar.jpg" alt="Panou solar" width="500">
       <p>Sub denumirea de „CONSTRUIRE PARC FOTOVOLTAIC, ÎMPREJMUIRE, AMENAJĂRI, RACORDURI ȘI BRANȘAMENTE LA R.E.D., SCHIMBARE PARȚIALĂ DE DESTINAȚIE DIN ZONĂ DE LOCUINȚE ÎN ZONĂ INDUSTRIALĂ, OPERAȚIUNI NOTARIALE–COMASARE TERENURI”, proiectul a fost pe ordinea de zi în ședința Comisiei Tehnice de Amenajare a Teritoriului și de Urbanism (C.T.A.T.U) a județului Cluj, de joi, 24 iunie 2022.
 
