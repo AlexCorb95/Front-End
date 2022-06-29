@@ -1,6 +1,6 @@
 /*Select dupa Tag-uri */
 body{
-    background-color: rgba(84, 87, 84, 0.377);
+    background-color: whitesmoke;
 }
 h2 {
     color: green;
@@ -9,6 +9,10 @@ h2 {
 h1 {
     color: rgb(69, 150, 150);
     text-align: center;
+}
+h1:hover{
+    background-color: red;
+    color: black;
 }
 
 /* Select dupa clasa */
@@ -25,3 +29,80 @@ Ierarhia selectorilor:
     2.Clasa
     3.Tag 
 */
+/* Selector descendent */
+article p {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: none;
+}
+
+article {
+    background-color: beige;
+    width: 400px;
+    border-radius: 25px;
+    border: 5px solid black ;
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+    vertical-align: top;
+    /* float: left; */
+    
+}
+article:hover{
+    box-shadow: 0px 0px 20px red;
+    opacity: 0.5 %;
+}
+ article img {
+    width: 400px;
+ }
+table {
+    background-color: aqua;
+    width: 500px;
+    height: 100px;
+    border-radius: 15px;
+    border: 5px solid blue;
+    margin: 10 px;
+
+}
+header a{
+    color: whitesmoke;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+    
+}
+header{
+    background-color: rgb(119, 119, 119);
+    font-size: large;
+    padding: 10px;
+    text-align: center;
+}
+header a:hover{
+    background-color: rgb(78, 78, 78);
+    color: yellowgreen;
+}
+article:hover p {
+    display: block;
+    
+}
+button a {
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+button{
+    background-color: rgb(0, 255, 0);
+    border-radius: 10px;
+    border-color: aquamarine;
+
+}
+button:hover{
+    background-color: red;
+    border-color: darkred;
+    
+}
+button a:hover{
+    color: rgb(0, 255, 0);
+}
