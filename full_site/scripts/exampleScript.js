@@ -130,4 +130,8 @@ function userProd(){
     showUser.innerHTML=results;
 }
 
-console.log(getElemValue());
+// set img on click
+function setImg(imagine){
+    var bigImg=document.getElementById("bigImg");
+    bigImg.src=imagine.src;
+}
